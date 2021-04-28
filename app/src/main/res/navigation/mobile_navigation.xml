@@ -22,4 +22,9 @@
         android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.history.HistoryFragment"
         android:label="@string/menu_history_item_title"
         tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.settings.SettingsFragment"
+        android:label="@string/action_settings"
+        tools:layout="@layout/settings_fragment" />
 </navigation>
