@@ -27,4 +27,9 @@
         android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.settings.SettingsFragment"
         android:label="@string/action_settings"
         tools:layout="@layout/settings_fragment" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.about.AboutFragment"
+        android:label="@string/menu_app_info_item_title"
+        tools:layout="@layout/about_fragment" />
 </navigation>
