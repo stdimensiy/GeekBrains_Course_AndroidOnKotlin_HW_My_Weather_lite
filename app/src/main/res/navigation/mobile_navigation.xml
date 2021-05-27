@@ -8,18 +8,28 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.hourly_forecast.HourlyForecastFragment"
+        android:label="@string/menu_hourly_forecast_item_title"
+        tools:layout="@layout/fragment_hourly_forecast" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.history.HistoryFragment"
+        android:label="@string/menu_history_item_title"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.settings.SettingsFragment"
+        android:label="@string/action_settings"
+        tools:layout="@layout/settings_fragment" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="ru.geekbrains.androidonkotlin.hw.myweatherlite.ui.about.AboutFragment"
+        android:label="@string/menu_app_info_item_title"
+        tools:layout="@layout/about_fragment" />
 </navigation>
